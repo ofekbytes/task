@@ -12,7 +12,8 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    
 </head>
 <body>
 
@@ -37,13 +38,97 @@
   </div>
 </nav>
 
+<!--
 <div class="jumbotron">
   <div class="container text-center">
     <h1>My Portfolio</h1>      
     <p>Some text that represents "Me"...</p>
   </div>
 </div>
-  
+-->
+
+ <div class="container">
+     
+    <form class="formClass">
+	<div class="row">
+		<div class="col-xs-3 col-md-3">
+		</div>
+		<div class="col-xs-6 col-md-6">
+            <h2 class="text-center">
+				ברוך הבא
+            </h3>
+		</div>
+		<div class="col-xs-3 col-md-3">
+		</div>
+	</div>    
+        
+ 	<div class="row">
+		<div class="col-xs-3 col-md-3">
+		</div>
+		<div class="col-xs-6 col-md-6">
+            <h6 class="text-center">
+				נא הזן שם משתמש וסיסמה <br/>
+                כפי שקיבלת בשירות הלקוחות
+            </h3>
+		</div>
+
+		<div class="col-xs-3 col-md-3">
+		</div>
+	</div>    
+
+    <form class="userPassword" dir="rtl" align="right"> 
+ 	<div class="row">
+		<div class="col-xs-3 col-md-3">
+		</div>
+		<div class="col-xs-6 col-md-6">
+
+        <input id="password" type="user" class="form-control" name="user" placeholder="שם משתמש" glyphicon-log-out>
+        </div>
+		<div class="col-xs-3 col-md-3">
+		</div>
+	</div>    
+
+
+ 	<div class="row">
+		<div class="col-xs-3 col-md-3">
+		</div>
+		<div class="col-xs-6 col-md-6">
+
+        <input id="password" type="password" class="form-control" name="password" placeholder="סיסמא">          
+		</div>
+                        
+		<div class="col-xs-3 col-md-3">
+		</div>
+	</div>    
+ 	<div class="row">
+		<div class="col-xs-3 col-md-3">
+		</div>
+		<div class="col-xs-6 col-md-6">
+            <div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>        
+		</div>
+                        
+		<div class="col-xs-3 col-md-3">
+		</div>
+	</div>            
+  	<div class="row">
+		<div class="col-xs-3 col-md-3">
+		</div>
+		<div class="col-xs-6 col-md-6">
+
+        <button type="submit" class="btn btn-warning btn-lg">התחבר</button>            
+            
+		</div>
+                        
+		<div class="col-xs-3 col-md-3">
+		</div>
+	</div>                   
+
+     </form>
+     
+    
+     
+</div>
+    
     
 <!--
 <div class="container-fluid bg-3 text-center">     
